@@ -88,6 +88,8 @@ namespace ADO
             a.VkPreis = Convert.ToDecimal(reader[i++]);
             a.letzteEntnahme = Convert.ToDateTime(reader[i++]);
 
+
+
             return a;
         }
     }
